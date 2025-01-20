@@ -63,7 +63,7 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-/* Home Content */
+
 .home-content {
     text-align: center;
     margin-top: 50px;
@@ -78,7 +78,7 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-/* Masonry Gallery */
+
 .gallery {
     column-count: 3;
     column-gap: 15px;
@@ -104,17 +104,17 @@ nav ul li a:hover {
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
-/* Specific styling for Image 4 */
+
 .item.image-4 {
-    grid-column: span 2; /* Make Image 4 span across two columns */
-    grid-row: span 2;    /* Make Image 4 span across two rows */
+    grid-column: span 2; 
+    grid-row: span 2;    
 }
 
 .item.image-4 img {
-    transform: scale(1.2); /* Adjust the scale as needed */
+    transform: scale(1.2); 
 }
 
-/* Contact Page */
+
 .contact-page {
     max-width: 800px;
     margin: 50px auto;
@@ -196,7 +196,7 @@ nav ul li a:hover {
     line-height: 1.8;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .gallery {
         column-count: 2;
@@ -226,7 +226,7 @@ nav ul li a:hover {
         column-count: 1;
     }
 }
-/* Project Details Page */
+
 .project-details {
     max-width: 800px;
     margin: 50px auto;

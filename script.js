@@ -59,3 +59,30 @@ document.getElementById('home-link').addEventListener('click', function (e) {
     e.preventDefault();
     content.innerHTML = pages.home;
 });
+
+const snowflakes = 400;
+const height = window.innerHeight; 
+const width = window.innerWidth; 
+let y = -1200;
+
+function setup() {
+    let myCanvas = createCanvas(width, height);
+    myCanvas.parent('p5_sketch');
+    frameRate(10);
+}
+
+function draw() {
+    background('black');
+    fill(255);
+    noStroke();
+
+    for (let s = 0; s < snowflakes; s++) {
+        circle(random(width), y + random(1200), random(1, 6));
+    }
+
+    y += 20;
+
+    if (y > 0) {
+        y = -600;
+    }
+}
